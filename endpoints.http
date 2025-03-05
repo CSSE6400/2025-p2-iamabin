@@ -15,12 +15,12 @@ Content-Type: application/json
 
 {
     "title": "Test Todo",
-    "description": "This is a test todo",
+    "description": "This is a apple todo",
     "completed": false
 }
 
 ### Update a Todo
-PUT {{baseUrl}}/api/v1/todos/1
+PUT {{baseUrl}}/api/v1/todos/2
 Content-Type: application/json
 
 {

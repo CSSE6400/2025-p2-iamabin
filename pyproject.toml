@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "2024-p2"
+name = "2025-p2-iamabin"
 version = "0.1.0"
 description = ""
 authors = []
 readme = "README.md"
+packages = [{ include = "todo" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 flask = "^3.0.2"
+flask-sqlalchemy = "^3.1.1"
 
 
 [build-system]
